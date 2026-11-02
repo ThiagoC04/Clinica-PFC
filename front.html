@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de Especialidades - Prototipo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans pt-16">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-20 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-blue-700">[Logo de la Clínica]</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#metodologia" class="text-gray-600 hover:text-blue-600">Metodología</a>
+                    <a href="#equipo" class="text-gray-600 hover:text-blue-600">Profesionales</a>
+                    <a href="#historias" class="text-gray-600 hover:text-blue-600">Historias</a>
+                    <a href="#unete" class="text-gray-600 hover:text-blue-600">Únete al Equipo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white py-20 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Atención Médica de Excelencia</h1>
+            <p class="text-xl mb-8">Brindando diagnósticos precisos y tratamientos avanzados con un enfoque humano integral.</p>
+            <a href="#contacto" class="bg-white text-blue-600 font-bold py-3 px-6 rounded-lg shadow hover:bg-gray-100 transition">Solicitar Turno</a>
+        </div>
+    </header>
+
+    <!-- Metodología de Atención -->
+    <section id="metodologia" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Nuestra Metodología de Atención</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Fase 1: [Nombre de Fase]</h3>
+                    <p class="text-gray-600">[Descripción técnica del primer contacto, triaje o estudios iniciales del paciente.]</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Fase 2: [Nombre de Fase]</h3>
+                    <p class="text-gray-600">[Descripción técnica sobre la evaluación de especialistas y propuesta de tratamiento.]</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Fase 3: [Nombre de Fase]</h3>
+                    <p class="text-gray-600">[Descripción del seguimiento continuo, rehabilitación o alta médica del paciente.]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo de Profesionales -->
+    <section id="equipo" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Perfiles Profesionales</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Profesional 1 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="bg-gray-300 h-40 w-full mb-4 rounded flex items-center justify-center text-gray-500">[Espacio para Foto]</div>
+                    <h3 class="text-lg font-bold">[Profesional 1]</h3>
+                    <p class="text-blue-600 font-semibold">[Especialidad 1]</p>
+                    <p class="text-sm text-gray-500 mt-2">Matrícula: [XXXXX]<br>Formación: [Institución]</p>
+                </div>
+                <!-- Profesional 2 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="bg-gray-300 h-40 w-full mb-4 rounded flex items-center justify-center text-gray-500">[Espacio para Foto]</div>
+                    <h3 class="text-lg font-bold">[Profesional 2]</h3>
+                    <p class="text-blue-600 font-semibold">[Especialidad 2]</p>
+                    <p class="text-sm text-gray-500 mt-2">Matrícula: [XXXXX]<br>Formación: [Institución]</p>
+                </div>
+                <!-- Profesional 3 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="bg-gray-300 h-40 w-full mb-4 rounded flex items-center justify-center text-gray-500">[Espacio para Foto]</div>
+                    <h3 class="text-lg font-bold">[Profesional 3]</h3>
+                    <p class="text-blue-600 font-semibold">[Especialidad 3]</p>
+                    <p class="text-sm text-gray-500 mt-2">Matrícula: [XXXXX]<br>Formación: [Institución]</p>
+                </div>
+                <!-- Profesional 4 -->
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="bg-gray-300 h-40 w-full mb-4 rounded flex items-center justify-center text-gray-500">[Espacio para Foto]</div>
+                    <h3 class="text-lg font-bold">[Profesional 4]</h3>
+                    <p class="text-blue-600 font-semibold">[Especialidad 4]</p>
+                    <p class="text-sm text-gray-500 mt-2">Matrícula: [XXXXX]<br>Formación: [Institución]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historias de Pacientes -->
+    <section id="historias" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Historias Clínicas y Testimonios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm italic text-gray-700">
+                    <p>"[Testimonio de prueba destacando la recuperación luego de un procedimiento específico. Se resalta la atención del equipo de enfermería y los médicos tratantes.]"</p>
+                    <p class="font-bold mt-4 not-italic text-gray-900">- [Paciente A], Tratamiento de [Patología]</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg shadow-sm italic text-gray-700">
+                    <p>"[Testimonio de prueba enfocado en la rapidez del diagnóstico temprano utilizando la tecnología de la clínica, logrando un tratamiento oportuno.]"</p>
+                    <p class="font-bold mt-4 not-italic text-gray-900">- [Paciente B], Diagnóstico de [Patología]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Únete a la Clínica (B2B / Reclutamiento) -->
+    <section id="unete" class="py-16 bg-blue-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Desarrolla tu Carrera Profesional con Nosotros</h2>
+            <p class="max-w-2xl mx-auto mb-8 text-blue-100">Buscamos especialistas comprometidos. Ofrecemos infraestructura de vanguardia, [Beneficio institucional 1] y [Beneficio institucional 2].</p>
+            <a href="mailto:recursoshumanos@clinica.com" class="bg-white text-blue-900 font-bold py-3 px-8 rounded-lg shadow hover:bg-gray-100 transition">Enviar Currículum</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="font-bold mb-4">[Nombre de la Clínica]</h4>
+                <p class="text-sm text-gray-400">Brindando soluciones de salud integrales con tecnología de última generación.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Contacto</h4>
+                <p class="text-sm text-gray-400">📍 [Dirección Completa]</p>
+                <p class="text-sm text-gray-400">📞 [Teléfono de Turnos]</p>
+                <p class="text-sm text-gray-400">✉️ [Email de Contacto]</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Legales</h4>
+                <p class="text-sm text-gray-400"><a href="#" class="hover:underline">Políticas de Privacidad</a></p>
+                <p class="text-sm text-gray-400"><a href="#" class="hover:underline">Términos y Condiciones</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
